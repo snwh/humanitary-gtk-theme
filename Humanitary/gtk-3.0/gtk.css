@@ -34,7 +34,7 @@
 @define-color menu_separator alpha (#000, 0.15);
 @define-color menu_separator_shadow alpha (#fff, 0.8);
 @define-color placeholder_text_color shade(@text_color, 2.5);
-@define-color progress_row_trough_color #D78E49;
+@define-color progress_row_trough_color @selected_bg_color;
 @define-color selected_bg_color #D78E49;
 @define-color selected_fg_color #FFF;
 @define-color text_color @fg_color;
@@ -46,8 +46,8 @@
 @define-color tooltip_fg_color #FFF;
 
 /*Panel*/
-@define-color panel_bg_color shade(@titlebar_color, 0.95);
-@define-color panel_fg_color @fg_color;
+@define-color panel_bg_color shade (#4C4039, 0.9);
+@define-color panel_fg_color @bg_color;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
 @define-color internal_element_prelight mix(@text_color, @base_color, 0.2);
