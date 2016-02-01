@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Humanitary
+Comment=Humanitary, a brown fork of the elementary theme
+Encoding=UTF-8
+
+Name[en_US]=Humanitary
+
+[X-GNOME-Metatheme]
+GtkTheme=Humanitary
+IconTheme=Humanitary
+CursorTheme=DMZ-Black
+ButtonLayout=close:maximize
