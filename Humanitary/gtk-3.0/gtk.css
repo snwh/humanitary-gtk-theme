@@ -47,7 +47,7 @@
 
 /*Panel*/
 @define-color panel_bg_color shade(#4C4039, 0.8);
-@define-color panel_fg_color  shade(#EFEBE7, 0.9);
+@define-color panel_fg_color #EFEBE7;
 
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
 @define-color internal_element_prelight mix(@text_color, @base_color, 0.2);
